@@ -1,0 +1,83 @@
+.about .headline {
+    /* color: var(--shade1, #FFF); */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+    /* 72px */
+}
+
+.about .des {
+    color: var(--shade-2, #B3B3B3);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 51.2px */
+}
+
+.about {
+    margin-top: 170px;
+    margin-bottom: 100px
+}
+
+.my-skills-headline {
+    color: var(--shade1, #FFF);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 30px;
+    /* 41.6px */
+}
+
+.about .skill {
+    color: var(--shade-2, #B3B3B3);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+@media screen and (max-width:1199.20px) {
+    .skills-row {
+        margin-top: 60px
+    }
+
+}
+
+
+@media screen and (max-width:991.20px) {
+    .about .img-container-1 {
+        display: block !important;
+        margin: 70px 0px 40px 0px
+    }
+
+    .about .img-container-2 {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:767.20px) {
+    .about .container {
+        padding: 0px 30px
+    }
+
+    .about .headline {
+        font-size: 32px;
+    }
+
+    .about .des {
+        font-size: 18px;
+    }
+
+    .hi-img {
+        width: 60px !important;
+        margin-top: -15px !important
+    }
+
+}
