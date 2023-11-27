@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from 'react';
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-    const [purpleMode, setPurpleMode] = useState(true);
+    const [purpleMode, setPurpleMode] = useState(false);
 
     const togglePurpleMode = () => {
         setPurpleMode(!purpleMode);
